@@ -1,0 +1,14 @@
+*.user
+*.aps
+*.pch
+*.vspscc
+*.suo
+*.bak
+*.cache
+*.log
+*.ilk
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_Resharper*/

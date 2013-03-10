@@ -1,0 +1,23 @@
+﻿@using Tewr.ExtJsMvc
+@using Tewr.ExtJsMvc.EditableGrid
+@model Tewr.ExtJsMvc.Examples.Models.HomeModel
+
+@{
+    ViewBag.Title = "Examples";
+}
+
+<script type="text/javascript" src="~/Scripts/Tewr.ExtJs-Mvc.grid.EditableGrid.js"></script>
+        <h5>Editable grid</h5><br/>
+<div id="personsGrid"></div>
+@Html.EditableGrid(
+    "personsGrid",
+    x => x.Persons, 
+    new GridOptions { width = "700", height = "400"},
+    g => g
+        .Text(m => m.Name, new ColumnOptions { Width = 120 })
+        .Combo(m => m.Occupations, m => m.OccupationId, new ComboColumnOptions { Header = "Occupation", Width = 100 })
+        .Combo(m => m.Occupations, new ComboColumnOptions { Header = "Second Occupation", Width = 120 })
+        .Date(m => m.BirthDate, new ColumnOptions { Width = 100})
+        .Number(m => m.Fortune, new ColumnOptions { Width = 100 })
+        .Number(m => m.Nationalities)
+    )

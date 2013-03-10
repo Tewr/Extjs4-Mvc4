@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tewr.ExtJs-Mvc.Examples", "Tewr.ExtJs-Mvc.Examples\Tewr.ExtJs-Mvc.Examples.csproj", "{C8FB67A3-2A14-4486-9EEF-48A9F18D2A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tewr.ExtJs-Mvc", "Tewr.ExtJs-Mvc\Tewr.ExtJs-Mvc.csproj", "{DC25B5F1-9B24-4E2B-A952-4639A477CA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tewr.ExtJs-Mvc.Tests", "Tewr.ExtJs-Mvc.Tests\Tewr.ExtJs-Mvc.Tests.csproj", "{8E1B6E57-8330-4B74-8284-227446993D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8FB67A3-2A14-4486-9EEF-48A9F18D2A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FB67A3-2A14-4486-9EEF-48A9F18D2A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FB67A3-2A14-4486-9EEF-48A9F18D2A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FB67A3-2A14-4486-9EEF-48A9F18D2A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC25B5F1-9B24-4E2B-A952-4639A477CA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC25B5F1-9B24-4E2B-A952-4639A477CA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC25B5F1-9B24-4E2B-A952-4639A477CA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC25B5F1-9B24-4E2B-A952-4639A477CA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1B6E57-8330-4B74-8284-227446993D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1B6E57-8330-4B74-8284-227446993D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1B6E57-8330-4B74-8284-227446993D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1B6E57-8330-4B74-8284-227446993D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
