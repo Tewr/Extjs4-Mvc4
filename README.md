@@ -1,10 +1,11 @@
 Extjs4-Mvc4
 ===========
 
-Html helper lib for integrating [Extjs4] with [Asp.net MVC4]
+Html helper lib for integrating [Extjs4] with [Asp.net MVC4]. Pretty much the same idea as the commercial lib [Ext.net], though this code totally unrelated.
 
 [Extjs4]: http://docs.sencha.com/ext-js/4-1/
 [Asp.net MVC4]: http://www.asp.net/mvc/mvc4
+[Ext.net]: http://www.ext.net/
 
 Editable Grid
 -------------
@@ -18,7 +19,8 @@ directly from script in markup, saving us a roundtrip.
 Like things usually are in ASP.net MVC, column names can be specified with the [DisplayAttribute], or if unspecified they
 will be deducted from the model property name. 
 
-Theres not yet a practical way of submitting the form data back to the server once modified.
+Theres not yet a practical way of submitting the form data back to the server once modified 
+(if you want to use this, you need to build that yourself).
 
 [Ext.grid.Panel]: http://docs.sencha.com/ext-js/4-1/#!/api/Ext.grid.Panel
 [CellEditing plugin]: http://docs.sencha.com/ext-js/4-1/#!/api/Ext.grid.plugin.CellEditing
